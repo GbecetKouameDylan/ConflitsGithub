@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app1';
 
-
+  incroyable() {
+    return "Je n'en reviens pas!"
+  }
 }
