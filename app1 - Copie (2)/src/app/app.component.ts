@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app1';
 
+  wow() {
+    return "Boom!"
+  }
   incroyable() {
     return "Je n'en reviens pas!"
   }
